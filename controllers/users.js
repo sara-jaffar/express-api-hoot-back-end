@@ -1,4 +1,5 @@
 // controllers/users.js
+const verifyToken = require('../middleware/verify-token');
 
 const express = require('express');
 
